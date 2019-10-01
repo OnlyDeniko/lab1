@@ -454,5 +454,6 @@ namespace recall {
 			}
 			ResultBox->Text = gcnew System::String(result.getField().c_str());
 		}
+		
 };
 }
