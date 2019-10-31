@@ -1,4 +1,5 @@
 #include<iostream>
+#include<clocale>
 #include"TBitField.h"
 #include"TSet.h"
 
@@ -39,6 +40,8 @@ int main() {
 		aa.insert(i);
 		bb.insert(i);
 	}
+	aa.insert(-1);
+	aa.insert(n + 100);
 	cout << "A = " << aa << '\n' << "B = " << bb << '\n';
 	cout << "A " << (aa == bb ? "= " : "!= ") << "B\n";
 	aa = ~aa;
