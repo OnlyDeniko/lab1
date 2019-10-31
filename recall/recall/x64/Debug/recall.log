@@ -1,3 +1,4 @@
 ﻿  MyForm.cpp
+  .NETFramework,Version=v4.6.1.AssemblyAttributes.cpp
   MyForm.obj : обнаружен модуль MSIL; для MSIL последовательная компоновка отключена; выполняется полная компоновка
   recall.vcxproj -> D:\c++\Лобач\2 курс\Множества\recall\x64\Debug\recall.exe
